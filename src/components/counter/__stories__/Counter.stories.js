@@ -1,7 +1,7 @@
-import Counter from '../Counter.vue';
+import Counter from "../Counter.vue";
 
 export default {
-  title: 'Counter',
+  title: "Counter",
   component: Counter,
   argTypes: {}
 };
@@ -9,7 +9,7 @@ export default {
 const Template = (args, { argTypes }) => ({
   props: Object.keys(argTypes),
   components: { Counter },
-  template: '<Counter/>'
+  template: "<Counter/>"
 });
 
 export const ByDefault = Template.bind({});

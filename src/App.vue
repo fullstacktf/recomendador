@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <Account/>
+    <img alt="Vue logo" src="./assets/logo.png" />
+    <Account />
   </div>
 </template>
 
@@ -9,11 +9,11 @@
 import Account from "@/components/account/Account";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Account
   }
-}
+};
 </script>
 
 <style>

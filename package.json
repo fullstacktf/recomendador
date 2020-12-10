@@ -6,10 +6,10 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
-    "test": "vue-cli-service test:unit --watch",
     "lint": "vue-cli-service lint",
+    "build-storybook": "build-storybook",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "test": "vue-cli-service test:unit --watch"
   },
   "dependencies": {
     "core-js": "^3.6.5",
