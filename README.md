@@ -1,29 +1,10 @@
-# recomendador
+# fs5-recomendador-frontend
+uRecommend.me - frontend
 
-## Project setup
-```
-yarn install
-```
+## Team
+- Melissa Dávila ([@Meldavmar](https://github.com/Meldavmar))
+- José Alberto Pérez ([@japmelian](https://github.com/japmelian))
+- Alejandro Suárez ([@Aletf7](https://github.com/Aletf7))
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Run your unit tests
-```
-yarn test:unit
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Mockups
+The mockups of our platform are stored under the `mockups` folder of this repo. There are variants for the [mobile](./mockups/mockupPhone) & [desktop](./mockups/mockupDesktop) versions
