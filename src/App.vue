@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="flex bg-gray-900 text-white min-h-screen">
-    <Slide />
+    <Side />
 
     <div class="w-full">
       <transition name="page" mode="out-in">
@@ -11,11 +11,11 @@
 </template>
 
 <script>
-import Slide from "@/components/slide/Slide";
+import Side from "@/components/side/Side";
 
 export default {
   components: {
-    Slide
+    Side
   }
 };
 </script>
