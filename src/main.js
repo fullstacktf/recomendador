@@ -1,9 +1,17 @@
-import Vue from 'vue'
-import App from './App.vue'
-import './assets/tailwind.css'
+import Vue from "vue";
+import App from "./App.vue";
+import "./assets/tailwind.css";
+import router from "./router";
+import store from "./store";
+import VueGlide from "vue-glide-js";
+import "vue-glide-js/dist/vue-glide.css";
 
-Vue.config.productionTip = false
+Vue.use(VueGlide);
+
+Vue.config.productionTip = false;
 
 new Vue({
-  render: h => h(App),
-}).$mount('#app')
+  router,
+  store,
+  render: h => h(App)
+}).$mount("#app");

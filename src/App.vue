@@ -1,28 +1,23 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <Account/>
+  <div id="app" class="flex bg-gray-900 text-white min-h-screen">
+    <Side />
+
+    <div class="w-full">
+      <transition name="page" mode="out-in">
+        <router-view />
+      </transition>
+    </div>
   </div>
 </template>
 
 <script>
-import Account from "@/components/account/Account";
+import Side from "@/components/side/Side";
 
 export default {
-  name: 'App',
   components: {
-    Account
+    Side
   }
-}
+};
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style src="./css/main.css"></style>
