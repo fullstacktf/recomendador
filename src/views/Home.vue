@@ -1,6 +1,8 @@
 <template>
   <div class="container mx-auto">
     <div class="my-8">
+      <Header />
+      <Categories />
       <vue-glide :perView="1" :bullet="true" class="mb-12">
         <vue-glide-slide>
           <router-link to="/about">
@@ -542,13 +544,23 @@
           </template>
         </vue-glide>
       </div>
+      <Footer />
       <!-- end trending-now -->
     </div>
   </div>
 </template>
 
 <script>
+import Categories from "../components/categories/Categories";
+import Header from "../components/header/Header";
+import Footer from "../components/footer/Footer";
+
 export default {
+  components: {
+    Categories,
+    Header,
+    Footer
+  },
   name: "home"
 };
 </script>
