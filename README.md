@@ -12,3 +12,6 @@ The mockups of our platform are stored under the `mockups` folder of this repo. 
 ## Prototype
 - The prototype of our platform in Desktop - https://www.figma.com/proto/dNYZ0pzwVX0In8lQvIAUGW/PROTOTYPE-DESKTOP?node-id=2%3A18&scaling=scale-down
 - The prototype of our platform in Mobile - https://www.figma.com/proto/rfZ0aAaoJV0EuLuF8CxC6n/PROTOTYPE-MOBILE?node-id=2%3A15&scaling=min-zoom
+
+## Install
+npm install (version 12 or higher version)
