@@ -46,7 +46,7 @@
           </vue-glide-slide>
           <vue-glide-slide>
             <router-link to="/about"
-              ><img src="@/assets/one_strange_rock.jpg" alt="one strange rock"
+              ><img src="@/assets/captain_marvel_background.jpg" alt="captain marvel"
             /></router-link>
           </vue-glide-slide>
           <vue-glide-slide>
@@ -93,7 +93,7 @@
       <!-- end recommended -->
 
       <div class="continue-watching px-6 mb-12">
-        <h1 class="text-black font-bold mb-1">Popular recommendations</h1>
+        <h1 class="text-black font-bold mb-1">Choose the platform</h1>
 
         <vue-glide
           :perView="5"
@@ -117,38 +117,38 @@
         >
           <vue-glide-slide>
             <router-link to="/about"
-              ><img src="@/assets/the_sound_of_music.jpg" alt="star wars"
+              ><img src="@/assets/HBO-Logo.png" alt="HBO"
             /></router-link>
           </vue-glide-slide>
           <vue-glide-slide>
             <router-link to="/about"
-              ><img src="@/assets/high_school_musical.jpg" alt="snow white"
+              ><img src="@/assets/Netflix_logo.png" alt="Netflix"
             /></router-link>
           </vue-glide-slide>
           <vue-glide-slide>
             <router-link to="/about"
-              ><img src="@/assets/cinderella.jpg" alt="zootopia"
-            /></router-link>
-          </vue-glide-slide>
-          <vue-glide-slide>
-            <router-link to="/about"
-              ><img
-                src="@/assets/avengers_infinity_war.jpg"
-                alt="one strange rock"
+              ><img src="@/assets/disneyplus-logo-fmi.png" alt="disney"
             /></router-link>
           </vue-glide-slide>
           <vue-glide-slide>
             <router-link to="/about"
               ><img
-                src="@/assets/remember_the_titans.jpg"
-                alt="one strange rock"
+                src="@/assets/hulu-logo.png"
+                alt="disney"
             /></router-link>
           </vue-glide-slide>
           <vue-glide-slide>
             <router-link to="/about"
               ><img
-                src="@/assets/remember_the_titans.jpg"
-                alt="one strange rock"
+                src="@/assets/Amazon.png"
+                alt="Amazon"
+            /></router-link>
+          </vue-glide-slide>
+          <vue-glide-slide>
+            <router-link to="/about"
+              ><img
+                src="@/assets/vimeo-logo.png"
+                alt="vimeo"
             /></router-link>
           </vue-glide-slide>
           <template slot="control">
@@ -203,6 +203,6 @@ export default {
     Header,
     Footer
   },
-  name: "home"
+  name: "platforms"
 };
 </script>

@@ -1,12 +1,15 @@
 <template>
-  <footer class="bg-black bg-opacity-85 fixed inset-x-0 bottom-0">
+  <footer class="bg-gray-800 bg-opacity-85 fixed inset-x-0 bottom-0">
     <div
       class="flex pb-5 px-3 m-auto pt-5 text-white text-sm flex-col md:flex-row max-w-6xl"
     >
       <div class="md:flex-auto md:flex-wrap mr-2 flex-row flex px-1 py-2">
         <ul class="table w-full">
           <li class="block sm:table-cell hover:text-green-500">
-            <a href="/#" class="mx-2">Privacidad y términos</a>
+            <a href="/#" class="mx-2">Aviso legal y Política de privacidad</a>
+          </li>
+          <li class="block sm:table-cell hover:text-green-500">
+            <a href="/#" class="mx-2">Política de Cookies</a>
           </li>
           <li class="block sm:table-cell hover:text-green-500">
             <a href="/#" class="mx-2">Contáctanos</a>
@@ -108,7 +111,7 @@
                      -0.204,-0.34l0,-4.631c0,-0.136 0.068,-0.273 0.204,-0.341c0.136,-0.068
                      0.272,-0.068 0.409,0l3.201,2.316c0.068,0.068 0.136,0.204
                      0.136,0.34c0.068,0.136 0,0.273 -0.136,0.341Z"
-                style="fill: rgb(0, 0, 0 );"
+                style="fill: rgba(55, 65, 81);"
               ></path>
             </g>
           </svg>

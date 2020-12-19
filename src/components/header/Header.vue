@@ -1,22 +1,20 @@
 <template>
-  <header
-    class="bg-black bg-opacity-85 flex flex-wrap items-center justify-between p-2"
-  >
-    <div class="flex items-center mr-6">
-      <img
-        href="#"
-        alt="URlogo"
-        class="h-10 w-15"
-        src="../../assets/logo.png"
-      />
-    </div>
-    <div class="flex items-center ml-6">
-      <button
-        type="submit"
-        class="w-30 flex justify-center border border-transparent text-xs font-bold rounded-full py-1 px-4 text-white bg-green-500 focus:outline-none focus:ring-2 focus:ring-offset-2"
-      >
-        SIGN UP
-      </button>
+  <header class="bg-gray-800 bg-opacity-85 fixed h-20 inset-x-0 top-0">
+    <div
+      class="flex px-3 m-auto text-white text-sm flex-col md:flex-row max-w-8xl"
+    >
+      <div class="md:flex-auto md:flex-row-reverse flex-row flex px-1 py-5">
+        <button
+        type="user"
+        class="w-30 h-8 flex justify-center border border-transparent text-xs font-bold rounded-full text-white"
+        >
+          <router-link to="/about" class="flex items-center mb-10">
+            <div class="relative">
+              <img src="../../assets/Keanu.png" class="rounded-full h-10 w-10 mt-1 ml-2 mr-3"/>
+            </div>
+          </router-link>
+        </button>
+      </div>
     </div>
   </header>
 </template>

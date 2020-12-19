@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-wrap items-center justify-center p-2">
+  <div class="flex flex-wrap items-center justify-between p-2 fixed top-20">
     <div class="md:flex-auto flex-row">
       <ul class="table w-full">
         <li class="md:table-cell py-1">
@@ -26,7 +26,7 @@
           <a href="/#" class=" ">
             <button
               type="item3"
-              class="w-60 flex justify-center border border-transparent text-xs font-bold rounded-full py-2 px-4 text-white bg-green-800 focus:outline-none focus:ring-2 focus:ring-offset-2"
+              class="w-60 flex justify-center border border-transparent text-xs font-bold rounded-full py-2 px-4 text-white bg-green-500 focus:outline-none focus:ring-2 focus:ring-offset-2"
             >
               ITEM 3
             </button>
@@ -54,11 +54,11 @@
         </li>
       </ul>
     </div>
-    <div class="container mx-auto px-2">
+    <div class="container mx-auto px-32">
       <div class="mt-4 border-t-2 border-gray-300 flex flex-col items-center">
-        <div class="text-center py-4">
+        <div class="text-center py-2 pr-28">
           <p class="text-2xl text-black font-bold mb-2">
-            Choose your favourite items
+            Your recommendations
           </p>
         </div>
       </div>
