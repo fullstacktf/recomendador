@@ -25,26 +25,46 @@
     </div>
 
     <div class="pl-16 text-gray-500 mb-8">
-      PG-13 &middot; 2019 &middot; 2h 4m &middot; Action, Adventure, Science
-      Fiction
+      <p class="text-black" v-if="list">{{ list.runtime }} min</p>
+      <p class="text-black" v-for="item in list.tags" :key="item.id">
+        {{ item.name }}
+      </p>
     </div>
 
-    <div class="w-96 xl:w-1/3 pl-16 leading-loose">
+    <!--     <div class="w-96 xl:w-1/3 pl-16 leading-loose">
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus fugit
       tenetur velit quasi soluta sunt suscipit, eveniet dolorum. Tenetur
       architecto voluptatum quis, vitae autem, vero tempora libero impedit culpa
       debitis, quisquam nam nemo quidem modi sunt illo consequuntur maiores
       magni.
+    </div> -->
+    <div id="app" class="w-96 xl:w-1/3 pl-16 leading-loose">
+      <p class="text-black" v-if="list">
+        {{ list.overview }}
+      </p>
     </div>
   </div>
 </template>
 
 <script>
+import Vue from "vue";
+import axios from "axios";
+import VueAxios from "vue-axios";
+Vue.use(VueAxios, axios);
+
 export default {
+  name: "AboutTS",
   data() {
     return {
-      background: require("@/assets/toy-story-bg.jpg")
+      list: undefined
     };
+  },
+  props: ["overview"],
+  mounted() {
+    Vue.axios.get("https://api.urecommend.me/media/862").then(response => {
+      //this.list = response.data.result;
+      this.list = response.data.result;
+    });
   }
 };
 </script>
