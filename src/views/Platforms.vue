@@ -3,8 +3,8 @@
     <div class="my-8">
       <Header />
       <Side/>
-      <Categories />
-      <div class="recommended px-6 mb-12">
+      <CategoriesPlatforms />
+      <div class="recommended px-6 py-14 mb-12">
         <vue-glide
           :perView="5"
           :gap="20"
@@ -94,7 +94,13 @@
       <!-- end recommended -->
 
       <div class="continue-watching px-6 mb-12">
-        <h1 class="text-black font-bold mb-1">Choose the platform</h1>
+        <div class="container mx-auto px-32">
+        <div class="text-center">
+          <p class="mt-8 text-2xl text-gray-800 font-bold mb-2">
+            CHOOSE YOUR FAVOURITE PLATFORM
+          </p>
+        </div>
+    </div>
 
         <vue-glide
           :perView="5"
@@ -194,14 +200,14 @@
 </template>
 
 <script>
-import Categories from "../components/categories/Categories";
+import CategoriesPlatforms from "../components/categories/CategoriesPlatforms";
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
 import Side from "@/components/side/Side";
 
 export default {
   components: {
-    Categories,
+    CategoriesPlatforms,
     Header,
     Footer,
     Side
