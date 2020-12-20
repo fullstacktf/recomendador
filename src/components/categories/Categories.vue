@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-wrap items-center justify-between p-2 fixed top-20">
+  <div class="flex flex-wrap items-center justify-between p-8 fixed top-16">
     <div class="md:flex-auto flex-row">
       <ul class="table w-full">
         <li class="md:table-cell py-1">
@@ -54,17 +54,16 @@
         </li>
       </ul>
     </div>
-    <div class="container mx-auto px-32">
+    <div class="container mx-full px-24">
       <div class="mt-4 border-t-2 border-gray-300 flex flex-col items-center">
         <div class="text-center py-2 pr-28">
-          <p class="text-2xl text-black font-bold mb-2">
-            Your recommendations
+          <p class="mt-8 ml-16 text-5xl text-gray-800 font-bold mb-2">
+            YOUR RECOMMENDATIONS
           </p>
         </div>
       </div>
     </div>
   </div>
-  <!--CABECERA-->
 </template>
 <script>
 export default {

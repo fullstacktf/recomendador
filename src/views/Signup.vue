@@ -1,24 +1,24 @@
 <template>
   <div class="container mx-auto fixed inset-x-0 top-40">
     <div class="my-8">
-      <HeaderLogin />
-      <Login />
+      <HeaderSignup />
+      <Signup />
       <Footer />
     </div>
   </div>
 </template>
 
 <script>
-import Login from "../components/login/Login";
-import HeaderLogin from "../components/header/HeaderLogin";
+import Signup from "../components/signup/Signup";
+import HeaderSignup from "../components/header/HeaderSignup";
 import Footer from "../components/footer/Footer";
 
 export default {
   components: {
-    Login,
-    HeaderLogin,
+    Signup,
+    HeaderSignup,
     Footer
   },
-  name: "home"
+  name: "signup"
 };
 </script>

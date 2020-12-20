@@ -1,8 +1,7 @@
 <template>
   <div class="container mx-auto fixed inset-x-0 top-40">
-    <div class="my-8">
+    <div class="my-24">
       <Header />
-      <Side/>
       <Categories />
       <div class="recommended px-6 mb-12">
         <vue-glide
@@ -26,33 +25,33 @@
           }"
         >
           <vue-glide-slide>
-            <router-link to="/platforms"
-              ><img src="@/assets/star_wars_a_new_hope.jpg" alt="star wars"
+            <router-link to="/aboutts"
+              ><img src="@/assets/toy-story-bg.jpg" alt="Toy Story"
             /></router-link>
           </vue-glide-slide>
           <vue-glide-slide>
-            <router-link to="/about">
-              <img src="@/assets/snow_white.jpg" alt="snow white"/>
+            <router-link to="/aboutdm">
+              <img src="@/assets/Dangerous-minds-bg.jpg" alt="Dangerous Minds"/>
             </router-link>
           </vue-glide-slide>
           <vue-glide-slide>
-            <router-link to="/about"
-              ><img src="@/assets/black_panther.jpg" alt="black panther"
+            <router-link to="/aboutmk"
+              ><img src="@/assets/mortal-kombat-bg.jpg" alt="Mortal Kombat"
             /></router-link>
           </vue-glide-slide>
           <vue-glide-slide>
-            <router-link to="/about"
-              ><img src="@/assets/zootopia.jpg" alt="zootopia"
+            <router-link to="/aboutPH"
+              ><img src="@/assets/pocahontas-bg.jpg" alt="Pocahontas"
             /></router-link>
           </vue-glide-slide>
           <vue-glide-slide>
-            <router-link to="/aboutCM"
-              ><img src="@/assets/captain_marvel_background.jpg" alt="captain marvel"
+            <router-link to="/aboutSV"
+              ><img src="@/assets/se7en-bg.jpg" alt="Se7ven"
             /></router-link>
           </vue-glide-slide>
           <vue-glide-slide>
-            <router-link to="/about"
-              ><img src="@/assets/one_strange_rock.jpg" alt="one strange rock"
+            <router-link to="/aboutJM"
+              ><img src="@/assets/jumanji-bg.jpg" alt="Jumanji"
             /></router-link>
           </vue-glide-slide>
           <template slot="control">
@@ -91,10 +90,13 @@
           </template>
         </vue-glide>
       </div>
-      <!-- end recommended -->
-
-      <div class="continue-watching px-6 mb-12">
-        <h1 class="text-black font-bold mb-1">Choose the platform</h1>
+      <div class="container mx-auto px-32">
+        <div class="text-center">
+          <p class="mt-8 text-2xl text-gray-800 font-bold mb-2">
+            POPULAR RECOMMENDATIONS
+          </p>
+        </div>
+    </div>
 
         <vue-glide
           :perView="5"
@@ -118,38 +120,38 @@
         >
           <vue-glide-slide>
             <router-link to="/about"
-              ><img src="@/assets/HBO-Logo.png" alt="HBO"
+              ><img src="@/assets/the_sound_of_music.jpg" alt="The Sound of Music"
             /></router-link>
           </vue-glide-slide>
           <vue-glide-slide>
             <router-link to="/about"
-              ><img src="@/assets/Netflix_logo.png" alt="Netflix"
+              ><img src="@/assets/avengers_infinity_war.jpg" alt="Avengers Infinity War"
             /></router-link>
           </vue-glide-slide>
-          <vue-glide-slide>
+           <vue-glide-slide>
             <router-link to="/about"
-              ><img src="@/assets/disneyplus-logo-fmi.png" alt="disney"
+              ><img
+                src="@/assets/lord-of-the-rings.jpg"
+                alt="Lord of the rings"
             /></router-link>
           </vue-glide-slide>
           <vue-glide-slide>
             <router-link to="/about"
               ><img
-                src="@/assets/hulu-logo.png"
-                alt="disney"
+                src="@/assets/narnia.jpg"
+                alt="Narnia"
+            /></router-link>
+          </vue-glide-slide>
+          <vue-glide-slide>
+            <router-link to="/about"
+              ><img src="@/assets/remember_the_titans.jpg" alt="Remmember the titans"
             /></router-link>
           </vue-glide-slide>
           <vue-glide-slide>
             <router-link to="/about"
               ><img
-                src="@/assets/Amazon.png"
-                alt="Amazon"
-            /></router-link>
-          </vue-glide-slide>
-          <vue-glide-slide>
-            <router-link to="/about"
-              ><img
-                src="@/assets/vimeo-logo.png"
-                alt="vimeo"
+                src="@/assets/high_school_musical.jpg"
+                alt="High School Musical"
             /></router-link>
           </vue-glide-slide>
           <template slot="control">
@@ -190,22 +192,20 @@
       </div>
       <Footer />
     </div>
-  </div>
 </template>
 
 <script>
 import Categories from "../components/categories/Categories";
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
-import Side from "@/components/side/Side";
 
 export default {
   components: {
     Categories,
     Header,
-    Footer,
-    Side
+    Footer
   },
-  name: "platforms"
+  name: "index"
 };
 </script>
+

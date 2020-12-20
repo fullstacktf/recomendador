@@ -4,7 +4,7 @@
     :style="{ backgroundImage: `url('${background}')` }"
   >
     <div class="pt-32 pl-8 mb-2">
-      <img src="@/assets/captain_marvel_logo.png" alt="logo" class="w-96" />
+      <img src="@/assets/Mortal-Kombat-logo.png" alt="logo" class="w-96" />
     </div>
 
     <div class="pl-16 mb-4">
@@ -36,7 +36,6 @@
       debitis, quisquam nam nemo quidem modi sunt illo consequuntur maiores
       magni.
     </div>
-    <!-- <img src="@/assets/captain_marvel_background.jpg" alt="captain marvel"> -->
   </div>
 </template>
 
@@ -44,7 +43,7 @@
 export default {
   data() {
     return {
-      background: require("@/assets/captain_marvel_background.jpg")
+      background: require("@/assets/mortal-kombat-bg.jpg")
     };
   }
 };
