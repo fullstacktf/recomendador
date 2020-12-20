@@ -1,7 +1,6 @@
 <template>
   <div id="app" class="flex bg-white-900 text-white min-h-screen">
-    <Side />
-
+    <Side/>
     <div class="w-full">
       <transition name="page" mode="out-in">
         <router-view />

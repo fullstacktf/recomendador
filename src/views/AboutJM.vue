@@ -1,10 +1,10 @@
-<template>
++<template>
   <div
-    class="min-h-screen bg-cover bg-white-900"
+    class="min-h-screen bg-cover"
+    :style="{ backgroundImage: `url('${background}')` }"
   >
-  <Side />
     <div class="pt-32 pl-8 mb-2">
-      <img src="@/assets/Blogo.png" alt="logo" class="ml-14 mb-10 w-48" />
+      <img src="@/assets/jumanji-lg.png" alt="logo" class="w-96" />
     </div>
 
     <div class="pl-16 mb-4">
@@ -25,10 +25,11 @@
     </div>
 
     <div class="pl-16 text-gray-500 mb-8">
-      PG &middot; Date &middot; Original language &middot; Categories
+      PG-13 &middot; 2019 &middot; 2h 4m &middot; Action, Adventure, Science
+      Fiction
     </div>
 
-    <div class="w-96 xl:w-1/3 pl-16 leading-loose text-black">
+    <div class="w-96 xl:w-1/3 pl-16 leading-loose">
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus fugit
       tenetur velit quasi soluta sunt suscipit, eveniet dolorum. Tenetur
       architecto voluptatum quis, vitae autem, vero tempora libero impedit culpa
@@ -39,16 +40,12 @@
 </template>
 
 <script>
-import Side from "@/components/side/Side";
 
 export default {
   data() {
     return {
-
+      background: require("@/assets/jumanji-bg.jpg")
     };
   },
-  components: {
-    Side
-  }
 };
 </script>

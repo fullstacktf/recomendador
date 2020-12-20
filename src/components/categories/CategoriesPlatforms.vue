@@ -57,8 +57,8 @@
     <div class="container mx-full px-24">
       <div class="mt-4 border-t-2 border-gray-300 flex flex-col items-center">
         <div class="text-center py-2 pr-28">
-          <p class="mt-8 ml-16 text-5xl text-gray-800 font-bold mb-2">
-            YOUR RECOMMENDATIONS
+          <p class="mt-8 ml-16 text-3xl text-gray-800 font-bold mb-2">
+            YOUR RECOMMENDATIONS FROM THE PLATFORM
           </p>
         </div>
       </div>
