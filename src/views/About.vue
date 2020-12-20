@@ -1,8 +1,6 @@
 <template>
-  <div
-    class="min-h-screen bg-cover bg-white-900"
-  >
-  <Side />
+  <div class="min-h-screen bg-cover bg-white-900">
+    <Side />
     <div class="pt-32 pl-8 mb-2">
       <img src="@/assets/Blogo.png" alt="logo" class="ml-14 mb-10 w-48" />
     </div>
@@ -43,9 +41,7 @@ import Side from "@/components/side/Side";
 
 export default {
   data() {
-    return {
-
-    };
+    return {};
   },
   components: {
     Side

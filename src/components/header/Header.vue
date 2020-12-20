@@ -5,12 +5,15 @@
     >
       <div class="md:flex-auto md:flex-row-reverse flex-row flex px-1 py-5">
         <button
-        type="user"
-        class="w-30 h-8 flex justify-center border border-transparent text-xs font-bold rounded-full text-white"
+          type="user"
+          class="w-30 h-8 flex justify-center border border-transparent text-xs font-bold rounded-full text-white"
         >
           <router-link to="/profile" class="flex items-center mb-10">
             <div class="relative">
-              <img src="../../assets/Keanu.png" class="rounded-full h-10 w-10 mt-1 ml-2 mr-3"/>
+              <img
+                src="../../assets/Keanu.png"
+                class="rounded-full h-10 w-10 mt-1 ml-2 mr-3"
+              />
             </div>
           </router-link>
         </button>

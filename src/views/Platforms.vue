@@ -2,7 +2,7 @@
   <div class="container mx-auto fixed inset-x-0 top-40">
     <div class="my-8">
       <Header />
-      <Side/>
+      <Side />
       <Categories />
       <div class="recommended px-6 mb-12">
         <vue-glide
@@ -32,7 +32,7 @@
           </vue-glide-slide>
           <vue-glide-slide>
             <router-link to="/about">
-              <img src="@/assets/snow_white.jpg" alt="snow white"/>
+              <img src="@/assets/snow_white.jpg" alt="snow white" />
             </router-link>
           </vue-glide-slide>
           <vue-glide-slide>
@@ -47,7 +47,9 @@
           </vue-glide-slide>
           <vue-glide-slide>
             <router-link to="/aboutCM"
-              ><img src="@/assets/captain_marvel_background.jpg" alt="captain marvel"
+              ><img
+                src="@/assets/captain_marvel_background.jpg"
+                alt="captain marvel"
             /></router-link>
           </vue-glide-slide>
           <vue-glide-slide>
@@ -133,23 +135,17 @@
           </vue-glide-slide>
           <vue-glide-slide>
             <router-link to="/about"
-              ><img
-                src="@/assets/hulu-logo.png"
-                alt="disney"
+              ><img src="@/assets/hulu-logo.png" alt="disney"
             /></router-link>
           </vue-glide-slide>
           <vue-glide-slide>
             <router-link to="/about"
-              ><img
-                src="@/assets/Amazon.png"
-                alt="Amazon"
+              ><img src="@/assets/Amazon.png" alt="Amazon"
             /></router-link>
           </vue-glide-slide>
           <vue-glide-slide>
             <router-link to="/about"
-              ><img
-                src="@/assets/vimeo-logo.png"
-                alt="vimeo"
+              ><img src="@/assets/vimeo-logo.png" alt="vimeo"
             /></router-link>
           </vue-glide-slide>
           <template slot="control">

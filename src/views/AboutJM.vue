@@ -40,12 +40,11 @@
 </template>
 
 <script>
-
 export default {
   data() {
     return {
       background: require("@/assets/jumanji-bg.jpg")
     };
-  },
+  }
 };
 </script>

@@ -1,5 +1,7 @@
 <template>
-  <div class="flex flex-wrap items-center justify-between p-10 ml-36 fixed top-14">
+  <div
+    class="flex flex-wrap items-center justify-between p-10 ml-36 fixed top-14"
+  >
     <div class="md:flex-auto flex-row">
       <ul class="table w-full">
         <li class="md:table-cell py-1">
@@ -55,7 +57,9 @@
       </ul>
     </div>
     <div class="container mx-full px-36">
-      <div class="mt-4 ml-6 border-t-2 border-gray-300 flex flex-col items-center">
+      <div
+        class="mt-4 ml-6 border-t-2 border-gray-300 flex flex-col items-center"
+      >
         <div class="text-center py-2 pl-18">
           <p class="ml-16 mt-8 text-3xl text-gray-800 font-bold mb-2">
             CHOOSE YOUR FAVOURITE FIVE CATEGORIES
