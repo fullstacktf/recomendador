@@ -24,27 +24,39 @@
       </button>
     </div>
 
-    <div class="pl-16 text-gray-500 mb-8">
-      PG-13 &middot; 2019 &middot; 2h 4m &middot; Action, Adventure, Science
-      Fiction
+     <div class="pl-16 text-gray-500 mb-8">
+      <p class="text-white font-blond" v-if="items">Duration: {{ items.runtime }} min</p>
+      <br>
+      <p class="text-white font-blond" v-for="item in items.tags" :key="item.id">
+        {{ item.name }}
+      </p>
     </div>
-
-    <div class="w-96 xl:w-1/3 pl-16 leading-loose">
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus fugit
-      tenetur velit quasi soluta sunt suscipit, eveniet dolorum. Tenetur
-      architecto voluptatum quis, vitae autem, vero tempora libero impedit culpa
-      debitis, quisquam nam nemo quidem modi sunt illo consequuntur maiores
-      magni.
+    <div id="app" class="w-96 xl:w-1/3 pl-16 leading-loose">
+      <p class="text-white font-blond" v-if="items">
+        {{ items.overview }}
+      </p>
     </div>
   </div>
 </template>
 
 <script>
+import Vue from "vue";
+import axios from "axios";
+import VueAxios from "vue-axios";
+Vue.use(VueAxios, axios);
+
 export default {
   data() {
     return {
-      background: require("@/assets/Dangerous-minds-bg.jpg")
-    };
+      background: require("@/assets/Dangerous-minds-bg.jpg"),
+      items: undefined
+     };
+  },
+  mounted() {
+    Vue.axios.get("https://api.urecommend.me/media/9909").then(response => {
+      //this.items = response.data.result;
+      this.items = response.data.result;
+    });
   }
 };
 </script>
