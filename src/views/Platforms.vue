@@ -2,7 +2,7 @@
   <div class="container mx-auto fixed inset-x-0 top-40">
     <div class="my-8">
       <Header />
-      <Side/>
+      <Side />
       <CategoriesPlatforms />
       <div class="recommended px-6 py-14 mb-12">
         <vue-glide
@@ -32,7 +32,7 @@
           </vue-glide-slide>
           <vue-glide-slide>
             <router-link to="/about">
-              <img src="@/assets/snow_white.jpg" alt="snow white"/>
+              <img src="@/assets/snow_white.jpg" alt="snow white" />
             </router-link>
           </vue-glide-slide>
           <vue-glide-slide>
@@ -47,7 +47,9 @@
           </vue-glide-slide>
           <vue-glide-slide>
             <router-link to="/aboutCM"
-              ><img src="@/assets/captain_marvel_background.jpg" alt="captain marvel"
+              ><img
+                src="@/assets/captain_marvel_background.jpg"
+                alt="captain marvel"
             /></router-link>
           </vue-glide-slide>
           <vue-glide-slide>
@@ -95,12 +97,12 @@
 
       <div class="continue-watching px-6 mb-12">
         <div class="container mx-auto px-32">
-        <div class="text-center">
-          <p class="mt-8 text-2xl text-gray-800 font-bold mb-2">
-            CHOOSE YOUR FAVOURITE PLATFORM
-          </p>
+          <div class="text-center">
+            <p class="mt-8 text-2xl text-gray-800 font-bold mb-2">
+              CHOOSE YOUR FAVOURITE PLATFORM
+            </p>
+          </div>
         </div>
-    </div>
 
         <vue-glide
           :perView="5"
@@ -139,23 +141,17 @@
           </vue-glide-slide>
           <vue-glide-slide>
             <router-link to="/about"
-              ><img
-                src="@/assets/hulu-logo.png"
-                alt="disney"
+              ><img src="@/assets/hulu-logo.png" alt="disney"
             /></router-link>
           </vue-glide-slide>
           <vue-glide-slide>
             <router-link to="/about"
-              ><img
-                src="@/assets/Amazon.png"
-                alt="Amazon"
+              ><img src="@/assets/Amazon.png" alt="Amazon"
             /></router-link>
           </vue-glide-slide>
           <vue-glide-slide>
             <router-link to="/about"
-              ><img
-                src="@/assets/vimeo-logo.png"
-                alt="vimeo"
+              ><img src="@/assets/vimeo-logo.png" alt="vimeo"
             /></router-link>
           </vue-glide-slide>
           <template slot="control">
