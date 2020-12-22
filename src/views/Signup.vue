@@ -14,11 +14,11 @@ import HeaderSignup from "../components/header/HeaderSignup";
 import Footer from "../components/footer/Footer";
 
 export default {
+  name: "signup",
   components: {
     Signup,
     HeaderSignup,
     Footer
-  },
-  name: "signup"
+  }
 };
 </script>

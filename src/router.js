@@ -46,7 +46,7 @@ export default new Router({
       path: "/profile",
       name: "profile",
       component: () =>
-        import(/* webpackChunkName: "about" */ "./views/Profile.vue")
+        import(/* webpackChunkName: "profile" */ "./views/Profile.vue")
     },
     {
       path: "/platforms",

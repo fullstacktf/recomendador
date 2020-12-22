@@ -61,7 +61,7 @@
         class="mt-4 ml-6 border-t-2 border-gray-300 flex flex-col items-center"
       >
         <div class="text-center py-2 pl-18">
-          <p class="ml-16 mt-8 text-3xl text-gray-800 font-bold mb-2">
+          <p class="ml-8 mt-8 text-3xl text-gray-800 font-bold mb-2">
             CHOOSE YOUR FAVOURITE FIVE CATEGORIES
           </p>
         </div>

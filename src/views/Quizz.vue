@@ -137,10 +137,6 @@
                     >
                       {{ option.text }}
                     </option>
-                    <!--                     <option value="28">Action</option>
-                    <option value="878">Science Fiction </option>
-                    <option value="10752">War</option>
-                    <option value="53">Thriller</option> -->
                   </select>
                   <div
                     class="absolute flex inset-y-0 items-center px-3 right-0 text-gray-700 bg-green-300 rounded-r pointer-events-auto"
@@ -193,7 +189,9 @@ export default {
     return {
       options: [
         { text: "Action", value: 28 },
-        { text: "Science Fiction", value: 878 }
+        { text: "Science Fiction", value: 878 },
+        { text: "War", value: 10752 },
+        { text: "Thriller", value: 53 }
       ]
     };
   }
