@@ -61,7 +61,6 @@
                     placeholder="REPEAT PASSWORD"
                   />
                 </div>
-<<<<<<< HEAD
 
                 <input
                   class="bg-green-900 hover:bg-green-500 text-white px-3 py-2 font-bold rounded w-full mt-4"
@@ -70,16 +69,6 @@
                 />
 
                 <div class="flex justify-between">
-=======
-                <router-link to="/quizz">
-                  <button
-                    class="bg-green-900 hover:bg-green-500 text-white px-3 py-2 font-bold rounded w-full mt-4"
-                  >
-                    SUBMIT
-                  </button>
-                </router-link>
-                <div class="flex justify-center">
->>>>>>> aa51686125d6d2c732189d105bdef89e1fac323e
                   <label class="block font-semibold my-4">
                     <input type="checkbox" class="" />
                     <span class="p-2 text-sm center text-black leading-snug"
