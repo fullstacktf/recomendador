@@ -203,11 +203,11 @@ import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
 
 export default {
+  name: "index",
   components: {
     Categories,
     Header,
     Footer
-  },
-  name: "index"
+  }
 };
 </script>

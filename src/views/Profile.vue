@@ -34,12 +34,14 @@
                 class="w-full lg:w-4/12 px-4 lg:order-3 lg:text-right lg:self-center"
               >
                 <div class="py-6 px-3 mt-32 ml-48 sm:mt-0">
-                  <button
-                    type=""
-                    class="ml-32 w-28 h-10 flex justify-center border border-transparent text-base font-bold rounded-full text-white bg-green-900 hover:bg-green-500 px-4 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1"
-                  >
-                    LOGOUT
-                  </button>
+                  <router-link to="/login">
+                    <button
+                      type=""
+                      class="ml-32 w-28 h-10 flex justify-center border border-transparent text-base font-bold rounded-full text-white bg-green-900 hover:bg-green-500 px-4 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1"
+                    >
+                      LOGOUT
+                    </button>
+                  </router-link>
                   <button
                     type=""
                     class="ml-28 w-36 h-10 flex justify-center border border-transparent text-base font-bold rounded-full text-white bg-green-900 hover:bg-green-500 px-4 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1"
