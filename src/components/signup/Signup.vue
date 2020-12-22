@@ -53,19 +53,11 @@
                     SUBMIT
                   </button>
                 </router-link>
-                <div class="flex justify-between">
+                <div class="flex justify-center">
                   <label class="block font-semibold my-4">
                     <input type="checkbox" class="" />
                     <span class="p-2 text-sm  text-black leading-snug"
                       >Remember Me</span
-                    >
-                  </label>
-                  <label class="block font-semibold my-4">
-                    <a
-                      href="#"
-                      class="cursor-pointer tracking-tighter text-green-500 text-sm border-b-2 border-green-500 hover:border-gray-500"
-                    >
-                      <span>Forgot Password?</span></a
                     >
                   </label>
                 </div>

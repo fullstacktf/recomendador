@@ -14,11 +14,12 @@ import HeaderLogin from "../components/header/HeaderLogin";
 import Footer from "../components/footer/Footer";
 
 export default {
+  name: "home",
   components: {
     Login,
     HeaderLogin,
     Footer
   },
-  name: "home"
+
 };
 </script>

@@ -54,7 +54,6 @@ export default {
   },
   mounted() {
     Vue.axios.get("https://api.urecommend.me/media/862").then(response => {
-      //this.items = response.data.result;
       this.items = response.data.result;
     });
   }
